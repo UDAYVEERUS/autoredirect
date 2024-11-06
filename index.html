@@ -8,8 +8,8 @@
       .example {
         color: red;
       }
-      *{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+      * {
+        font-family: "Times New Roman", Times, serif !important;
         font-weight: 600;
       }
       @media only screen and (min-width: 700px) {
@@ -155,7 +155,7 @@
         padding: 22px 0px;
       }
 
-      .footer-setup a {
+      .footer-setup a {     
         background: #fff;
         color: #010e84;
         padding: 6px 22px;
@@ -164,6 +164,10 @@
         margin-bottom: 14px;
         border-radius: 10px;
         font-weight: bold;
+      }
+      #glow-form input,
+      #glow-form textarea {
+        padding: 15px;
       }
       @media screen and (min-width: 320px) and (max-width: 768px) {
         .cont-cent {
