@@ -6,16 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paypal Support</title>
     <style>
-        /* General Styles */
-        body {
-            background: #fff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
         .example {
             color: red;
+        }
+
+        @media only screen and (min-width: 700px) {
+            .header-mob {
+                display: flex;
+            }
+
+            .header-mob {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .header-mob {
+                text-align: left !important;
+            }
+
+            .main-banner-part {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .main-banner-part .left-cirle {
+                padding-left: 55px;
+            }
+
+            .banner-sliders {
+                margin-top: 80px;
+            }
         }
 
         .cont-cent {
@@ -39,34 +60,47 @@
         }
 
         .head-left img {
-            width: 80%;
+            width: 24%;
             margin-top: 17px;
-            max-width: 200px;
         }
 
-        /* Banner Section */
-        .main-banner-part {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
+        body {
+            background: #fff;
         }
 
-        .main-banner-part .left-cirle {
-            padding-left: 55px;
-            flex: 1;
-            text-align: left;
+        #glow-form input {
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            color: #000;
+        }
+
+        .head-right a {
+            color: #000;
+            display: inline-block;
+            margin-top: 32px !important;
+        }
+
+        .head-right ul li a {
+            font-weight: 500;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 8px;
         }
 
         .banner-aprt {
             margin: 24px auto;
             width: 88%;
+        }
+
+        .banner-aprt {
             text-align: center;
         }
 
         .banner-aprt img {
             border-radius: 12px;
-            max-width: 100%;
         }
 
         .banner-aprt h1 {
@@ -83,10 +117,8 @@
             display: inline-block;
             font-size: 16px;
             border-radius: 10px;
-            text-decoration: none;
         }
 
-        /* Form Section */
         .form-section {
             background: #010e84;
             padding: 40px 33px;
@@ -97,20 +129,11 @@
         #glow-form textarea {
             background: #fff;
             margin: 18px 0px;
-            padding: 10px;
-            width: 100%;
-            border-radius: 8px;
-            font-size: 16px;
         }
 
         [type="submit"] {
-            height: 39px;
-            line-height: 10px;
-            background: #fff;
-            color: #010e84;
-            font-weight: bold;
-            border-radius: 8px;
-            cursor: pointer;
+            height: 39px !important;
+            line-height: 10px !important;
         }
 
         .form-section h1,
@@ -139,87 +162,8 @@
             margin-bottom: 14px;
             border-radius: 10px;
             font-weight: bold;
-            text-decoration: none;
         }
 
-        /* Responsive Media Queries */
-        @media only screen and (max-width: 768px) {
-            .header-mob {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                padding: 10px;
-            }
-
-            .head-right ul {
-                flex-direction: column;
-                padding-left: 0;
-            }
-
-            .head-right ul li {
-                margin-bottom: 10px;
-            }
-
-            .main-banner-part {
-                flex-direction: column;
-                align-items: center;
-                padding: 0 10px;
-            }
-
-            .main-banner-part img {
-                width: 100%;
-                max-width: 400px;
-                margin: 0 auto;
-            }
-
-            .left-cirle {
-                padding-left: 0;
-                text-align: center;
-            }
-
-            .form-section {
-                padding: 30px 20px;
-            }
-
-            .banner-aprt h1 {
-                font-size: 22px;
-                margin-top: 10px;
-            }
-
-            .form-section input[type="submit"] {
-                width: 100%;
-            }
-
-            .footer-setup {
-                padding: 20px 0;
-            }
-        }
-
-        @media only screen and (max-width: 480px) {
-            .head-left img {
-                width: 100%;
-                max-width: 150px;
-            }
-
-            .banner-aprt h1 {
-                font-size: 20px;
-            }
-
-            .banner-aprt a {
-                font-size: 14px;
-                padding: 8px 20px;
-            }
-
-            .footer-setup a {
-                font-size: 15px;
-                padding: 8px 18px;
-            }
-
-            .footer-setup h3 {
-                font-size: 14px;
-            }
-        }
     </style>
 </head>
 
@@ -233,7 +177,7 @@
     <div class="custom-mobile">
         <div class="cont-cent">
             <div class="header-mob">
-                <div class="head-left"><img src="https://justain.online/wp-content/uploads/2024/10/logo.png" alt="Logo"></div>
+                <div class="head-left"><img src="https://justain.online/wp-content/uploads/2024/10/logo.png"></div>
                 <div class="head-right">
                     <ul>
                         <li><a href="https://simplyclaim.online/">Home</a></li>
@@ -244,14 +188,14 @@
             </div>
             <div class="banner-aprt">
                 <div class="main-banner-part">
-                    <img src="https://justain.online/wp-content/uploads/2024/10/banner.jpg" alt="Banner">
+                    <img src="https://justain.online/wp-content/uploads/2024/10/banner.jpg">
                     <div class="left-cirle">
                         <h1>Online 24/7 Paypal Customer Service</h1>
                         <a class="button-call" href="tel:+18444392995">Call Us Now</a>
                     </div>
                 </div>
                 <div class="banner-sliders">
-                    <img src="https://justain.online/wp-content/uploads/2024/10/nichla-banner.jpg" alt="Slider Banner">
+                    <img src="https://justain.online/wp-content/uploads/2024/10/nichla-banner.jpg">
                 </div>
                 <div class="form-section">
                     <form id="glow-form">
@@ -264,7 +208,7 @@
                     <p>Visit us in person! We cherish our customers and welcome you during our regular business hours.</p>
                 </div>
                 <div class="footer-top-banner">
-                    <img src="https://justain.online/wp-content/uploads/2024/10/dsfsff.jpg" alt="Footer Banner">
+                    <img src="https://justain.online/wp-content/uploads/2024/10/dsfsff.jpg">
                 </div>
                 <div class="footer-setup">
                     <a href="tel:+18779069885">Call Us Now</a>
@@ -274,5 +218,4 @@
         </div>
     </div>
 </body>
-
 </html>
